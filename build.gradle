@@ -1,0 +1,64 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'war'
+apply plugin: 'jetty'
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+
+	compile   "org.easytesting:fest-assert-core:2.0M8",
+
+        	  "com.google.guava:guava:14.0.1",
+        	  
+        	  "com.sun.jersey:jersey-bundle:1.18.1",
+        	  
+        	  "javax.servlet:javax.servlet-api:3.1.0", 
+        	  
+        	  "org.apache.commons:commons-lang3:3.3.2",
+        	  
+        	  "commons-collections:commons-collections:3.2.1",
+        	  
+        	  "joda-time:joda-time:2.3",
+        	  
+        	  "org.codemonkey.simplejavamail:simple-java-mail:2.0",
+        	  
+        	  "org.springframework:spring-core:4.0.6.RELEASE",
+        	  
+        	  "com.sun.jersey.contribs:jersey-spring:1.1.5-ea-v20091019",
+        	  
+        	  "org.springframework:spring-web:4.0.6.RELEASE",
+        	  
+        	  "net.sourceforge.pjl-comp-filter:pjl-comp-filter:1.6.4",
+        	  
+        	  "com.sun.jersey:jersey-json:1.18.1",
+        	  
+        	  "org.codehaus.jackson:jackson-jaxrs:1.9.9",
+        	  
+        	  "org.codehaus.jackson:jackson-mapper-asl:1.9.9",
+        	  
+        	  "com.sun.jersey:jersey-bundle:1.18.1",
+        	  
+        	  "com.sun.jersey:jersey-server:1.18.1",
+        	  
+        	  "javax.ws.rs:jsr311-api:1.1.1", 
+        	  
+        	  "org.springframework:spring-jdbc:4.0.6.RELEASE",
+        	  
+        	  "mysql:mysql-connector-java:5.1.31",
+        	  
+        	  'org.springframework:spring-test:3.0.4.RELEASE',
+        	  
+        	  'commons-beanutils:commons-beanutils:1.9.2'
+
+        	  
+	testCompile "junit:junit:4.11",
+         
+            	"org.mockito:mockito-all:1.9.0",
+        
+        	    "org.easytesting:fest-assert-core:2.0M8",
+
+		        "com.google.guava:guava:14.0.1"
+		                    
+}
